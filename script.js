@@ -12,9 +12,11 @@ function changeImage() {
     if (bisherigesImage === image.src) {
         image.src = randomArrayItem(imagesArray);
     }
+    // if ()
 }
 
-const imagesArray = ['img/pic01.jpg', 'img/pic02.jpg', 'img/pic03.jpg', 'img/pic04.jpg', 'img/pic05.jpg', 'img/pic06.jpg'];
+const imagesArray = ['img/pic01.jpg', 'img/pic02.jpg', 'img/pic03.jpg', 'img/pic04.jpg', 'img/pic05.jpg', 'img/pic06.jpg', 'img/pic07.jpg', 'img/pic08.jpg', 'img/pic09.jpg'];
+const //adjectives = ['awsome', 'great', 'remarkable', 'successful', 'unique', 'amazing', 'strong'];
 
 function randomArrayItem(imagesArray) {
     return imagesArray[Math.floor(Math.random() * imagesArray.length)];
