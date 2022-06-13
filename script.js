@@ -1,12 +1,9 @@
 function changeImage() {
     const image = document.getElementById('myImage');
-    // console.log('image.src: ' + image.src); // bisheriger imgage.src
     const bisherigesImage = image.src;
-    // console.log('bisherigesImate ' + bisherigesImage);
 
     // bisherige img zwischenspeichern
     image.src = randomArrayItem(imagesArray);
-    // console.log('image.src neu: ' + image.src);
 
     // wenn das selbe img ausgewählt wird, dann nochmal aussuchen
     if (bisherigesImage === image.src) {
