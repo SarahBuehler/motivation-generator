@@ -1,5 +1,5 @@
 function changeImage() {
-    let image = document.getElementById('myImage');
+    const image = document.getElementById('myImage');
     // console.log('image.src: ' + image.src); // bisheriger imgage.src
     const bisherigesImage = image.src;
     // console.log('bisherigesImate ' + bisherigesImage);
