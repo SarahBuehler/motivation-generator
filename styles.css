@@ -38,6 +38,12 @@ header {
     border-radius: 1em;
 }
 
+#output {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
