@@ -1,10 +1,5 @@
 function changeImage() {
     let image = document.getElementById('myImage');
-    /* if (image.src.match("img/transparent.png")) {
-        image.src = "img/pic01.jpg";
-    } else {
-        image.src = "img/pic02.jpg";
-    } */
     image.src = randomArrayItem(imagesArray);
 }
 
